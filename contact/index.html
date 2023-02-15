@@ -1,27 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<picture>
+  <source srcset="image-1600w.jpg" media="(min-width:901px)">
+  <source srcset="image-900w.jpg" media="(min-width:501px)">
+  <source srcset="image-500w.jpg" media="(min-width:500px)">
+
+  <source srcset="image-900w.jpg" alt="squirrel looking suspect">
+</picture>
+
 <head>
-  <!-- TODO: adjust title, add meta description, add your favicon info, delete this comment -->
+  <!-- TODO: adjust title, add meta description, add your favicon info, delete this comment  -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Contact</title>
+  <title>About</title>
+  <style>
+    picture img {
+      width: 100%;
+      height: auto;
+    }
+  </style>
 </head>
 
 <body>
+  <picture>
+    <source srcset="/images/squirrel-1600.jpg" media="(min-width: 901px)">
+    <source srcset="/images/squirrel-900.jpg" media="(min-width: 500px)">
+    <source srcset="/images/squirrel-500.jpg" media="(max-width: 500px)">
+
+    <img src="/images/squirrel-900.jpg" alt="gray squirrel looking at camera">
+  </picture>
+
   <!-- TODO: add menu links, delete this comment -->
   <header>
     <nav>
       <ul>
         <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a>Contact</a></li>
+        <li><a>About</a></li>
+        <li><a href="">Contact</a></li>
       </ul>
     </nav>
   </header>
-  <h1>Contact</h1>
+
+  <main>
+    <h1>About</h1>
+  </main>
 </body>
 
 </html>

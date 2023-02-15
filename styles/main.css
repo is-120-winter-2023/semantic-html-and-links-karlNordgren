@@ -27,6 +27,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+footer {
+  word-wrap: break-word;
+}
+
 img,
 picture,
 video,
