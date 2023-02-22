@@ -10,74 +10,66 @@
   <meta name="description" content="Hello World">
   <meta property="og:description" content="Come see my website!">
   <meta property="og:type" content="Website">
-  <!-- <meta property="og:image" content="images/rock.jpg"> -->
-  <!-- <meta property="og:image:width" content="1200">
+  <meta property="og:image"
+    content="https://is-120-winter-2023.github.io/semantic-html-and-links-karlNordgren/images/rock.jpg">
+  <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:height" content="1000"> -->
+  <meta property="og:image:height" content="1000">
   <title>Document</title>
   <link rel="icon" type="image/x-icon" href="images/1f60b.svg">
 </head>
 
 <body>
-  <p>Hello BYU!</p>
-  <strong>
-    <p>This paragraph is strong</p>
-  </strong>
-  <em>
-    <p>This paragraph is emphasized</p>
-  </em>
+  <h1>Hello BYU!</h1>
+  <p><strong>This paragraph is strong</strong></p>
+  <p><em>This paragraph is emphasized</em></p>
   <div>
     <img src="images/rock.jpg" alt="rock" width="400px">
   </div>
-</body>
 
-<header>
-  <nav>
-    <ul>
-      <li><a href="">Home</a></li>
-      <li><a href="">About</a></li>
-      <li><a href="">Contact</a></li>
-    </ul>
-  </nav>
-</header>
 
-<main>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <h2>Welcome To My Website</h2>
+      <p>This is a paragraph</p>
+    </article>
+
+    <article>
+      <h2>This is the Second Article</h2>
+      <p>This is also a paragraph</p>
+    </article>
+  </main>
+
+  <aside>
+    <p>
+      include a pull quote and wrap text in the aside
+    </p>
+  </aside>
+
   <article>
-    <h2>Welcome To My Website</h2>
-    <p>This is a paragraph</p>
-  </article>
-
-  <article>
-    <h2>This is the Second Article</h2>
-    <p>This is also a paragraph</p>
-  </article>
-</main>
-
-<aside>
-  <p>
-    include a pull quote and wrap text in the aside
-  </p>
-</aside>
-
-<article>
-  <figure>
     <h2>This is the third Article</h2>
     <p>This is also a paragraph</p>
-    <img src="images/squirrel-900.jpg" alt="grey squirrel up to no good" width="800">
-    <figcaption><i>fig. 1</i> A menacing squirrel looking into your soul</figcaption>
-    <p></p>
-  </figure>
-</article>
+    <figure>
+      <img src="images/squirrel-900.jpg" alt="grey squirrel up to no good" width="800">
+      <figcaption><em>fig. 1</em> A menacing squirrel looking into your soul</figcaption>
+    </figure>
+  </article>
 
 
 
-<footer>
-
-  <h1>
+  <footer>
     <p>How do I wrap this Text in the footer?</p>
-  </h1>
-
-
-</footer>
+  </footer>
+</body>
 
 </html>
